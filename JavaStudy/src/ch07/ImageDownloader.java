@@ -10,8 +10,8 @@ import javax.imageio.ImageIO;
 
 public class ImageDownloader {
 	public static void main(String[] args) {
+		// shift + ctrl + o : 전체 import
 		File outputFile = new File("c:/dev/test.jpg");
-		// shift + ctri + o : 전체 import
 		URL url = null;
 		BufferedImage bi = null;
 
